@@ -34,7 +34,5 @@ public class ProseBuilder implements Prose {
 
     public String buildUpperCase() {
         return build().toUpperCase();
-    }
-
-	
+    }	
 }

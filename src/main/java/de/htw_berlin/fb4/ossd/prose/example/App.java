@@ -19,8 +19,7 @@ public class App
     public static void main( String[] args )
     {
 
-        Sentence s1 = () -> "Haste mal ne Mark!";
-
+        Sentence s1 = new SimpleSentence("Haste mal ne Mark!");
         ProseBuilder builder = new ProseBuilder();
         builder.register(s1);
         builder.register(new ExampleSentence());

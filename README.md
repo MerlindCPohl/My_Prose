@@ -1,4 +1,4 @@
-### My_Prose
+# My_Prose
 
 Dieses Java-Projekt bietet eine einfache Möglichkeit, mit Sätzen zu arbeiten und daraus alle enthaltenen Wörter alphabetisch sortiert zurückzugeben.
 

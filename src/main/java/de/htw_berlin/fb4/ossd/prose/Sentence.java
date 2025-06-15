@@ -7,6 +7,10 @@
  */
 package de.htw_berlin.fb4.ossd.prose;
 
+import java.util.List;
+
 public interface Sentence {
     String get();
+    List<String> getWords();
+    String getText();
 }

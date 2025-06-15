@@ -1,4 +1,4 @@
-/* SPDX-FileCopyrightText: 2025 Johannes Kristan
+/* Copyright (C) 2025 Merlind Pohl
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information regarding copyright ownership.
@@ -9,6 +9,7 @@ package de.htw_berlin.fb4.ossd.prose;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class ProseBuilder implements Prose {
 
@@ -30,6 +31,16 @@ public class ProseBuilder implements Prose {
     @Override
     public String get() {
         return build();
+    }
+
+    @Override
+    public String getText() {
+        return "";
+    }
+
+    @Override
+    public List<Sentence> getSentences() {
+        return List.of();
     }
 
     public String buildUpperCase() {

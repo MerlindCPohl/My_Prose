@@ -7,6 +7,11 @@
  */
 package de.htw_berlin.fb4.ossd.prose;
 
+import java.util.List;
+
 public interface Prose {
     String get();
+    String getText();                    // gesamter Text
+    List<Sentence> getSentences();
+
 }

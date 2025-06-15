@@ -1,10 +1,10 @@
-Prose
+### My_Prose
 
 Dieses Java-Projekt bietet eine einfache Möglichkeit, mit Sätzen zu arbeiten und daraus alle enthaltenen Wörter alphabetisch sortiert zurückzugeben.
 
 _______________
 
-Vorraussetzungen
+## Vorraussetzungen
 
 Maven
 
@@ -12,7 +12,7 @@ Java 17 oder höher empfohlen
 
 __________________
 
-Installation
+## Installation
 
 Das Repository kannst du klonen mit 
 git clone https://github.com/merlindcpohl/my_prose.git
@@ -21,7 +21,7 @@ cd my_prose
 
 __________________
 
-Projektstruktur
+##Projektstruktur
 
 Die wichtigsten Interfaces und Klassen befinden sich im Package `de.htw_berlin.fb4.ossd.prose`:
 
@@ -41,13 +41,13 @@ Zusätzlich enthält das Package `example` eine Beispielimplementierung:
 
 _________________
 
-Lizenz
+## Lizenz
 
 Dieses Projekt steht unter der GNU Lesser General Public License (LGPL) Version 3. Weitere Informationen findest du in der Datei LICENSE.
 
 __________________
 
-Beispielverwendung
+## Beispielverwendung
 
 Falls du das Projekt lokal ausführen möchtest, kann eine `main()`-Methode wie folgt aussehen:
 

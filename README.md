@@ -43,7 +43,7 @@ _________________
 
 Lizenz
 
-
+Dieses Projekt steht unter der GNU Lesser General Public License (LGPL) Version 3. Weitere Informationen findest du in der Datei LICENSE.
 
 __________________
 
